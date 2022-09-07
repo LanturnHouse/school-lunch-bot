@@ -1,0 +1,35 @@
+commands_help:
+    도움말:
+        COMMAND: -도움말,-help
+        PERMISSION: 없음
+        DESCRIPTION: 봇의 명령어 도움말을 보여줍니다.
+
+    학교설정:
+        COMMAND: -학교설정
+        PERMISSION: 서버 관리자
+        DESCRIPTION: 서버에서 기본값으로 사용될 학교를 설정합니다.
+
+    채널설정:
+        COMMAND: -채널설정
+        PERMISSION: 서버 관리자
+        DESCRIPTION: 급식 알림을 보낼 채널을 설정합니다.
+
+    급식:
+        COMMAND: -급식
+        PERMISSION: 없음
+        DESCRIPTION: 서버의 기본값으로 설정된 학교의 오늘 급식을 보여줍니다.
+
+    급식2:
+        COMMAND: -급식 <학교이름>
+        PERMISSION: 없음
+        DESCRIPTION: <학교이름>의 오늘 급식을 보여줍니다.
+
+    '-급식':
+        COMMAND: --급식
+        PERMISSION: 없음
+        DESCRIPTION: 서버의 기본값으로 설정된 학교의 원하는 요일 급식을 보여줍니다.
+
+    '-급식2':
+        COMMAND: --급식 <학교이름>
+        PERMISSION: 없음
+        DESCRIPTION: <학교이름>의 원하는 요일 급식을 보여줍니다.
